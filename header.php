@@ -12,12 +12,7 @@
             <section class="top-bar">
                 <div class="container">
                     <div class="logo">
-                        <?php if ( has_custom_logo() ) {
-                            the_custom_logo();
-                        } else { ?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/download.png" alt="Site Logo">
-                        <?php } ?>
-
+                        Logo
                     </div>
                     <div class="searchbox">
                         Search

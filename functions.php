@@ -7,9 +7,14 @@ function wpdevs_load_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'wpdevs_load_scripts' );
 
+function dstheme_config(){
 register_nav_menus(
     array(
         'wp_devs_main_menu' => 'Main Menu',
         'wp_devs_footer_menu' => 'Footer Menu'
     )
 );
+$args=array('height'=>225, 'width'=>1920);
+add_theme_support('custom-header', $args);
+add_theme_support('post-thumbnails');
+}

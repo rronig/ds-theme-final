@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Page Template
+*/
+?>
 <?php get_header(); ?>
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
